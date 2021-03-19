@@ -1,0 +1,5 @@
+2021-03-19 02:52:07 - error [app.js]: DiscordAPIError: Unknown Message
+    at RequestHandler.execute (/home/runner/Customizable-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RequestHandler.push (/home/runner/Customizable-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+    at async MessageManager.delete (/home/runner/Customizable-Discord-Bot/node_modules/discord.js/src/managers/MessageManager.js:126:5)
