@@ -1,0 +1,115 @@
+2021-03-19 02:49:15 - info [app.js]: Initializing...
+2021-03-19 02:49:15 - info [app.js]: Loading commands...
+2021-03-19 02:49:16 - info [app.js]: 
+.-----------------------------------------------------------------------------.
+|                                  Commands                                   |
+|-----------------------------------------------------------------------------|
+|           File            |            Aliases             | Type  | Status |
+|---------------------------|--------------------------------|-------|--------|
+| setadminrole.js           | setar, sar                     | admin | pass   |
+| setautokick.js            | setak, sak                     | admin | pass   |
+| setautorole.js            | setaur, saur                   | admin | pass   |
+| setfarewellchannel.js     | setfc, sfc                     | admin | pass   |
+| setfarewellmessage.js     | setfarewellmsg, setfm, sfm     | admin | pass   |
+| setmemberlog.js           | setmeml, smeml                 | admin | pass   |
+| setmessagedeletelog.js    | setmsgdeletelog, setmdl, smdl  | admin | pass   |
+| setmessageeditlog.js      | setmsgeditlog, setmel, smel    | admin | pass   |
+| setmodchannels.js         | setmodcs, setmcs, smcs         | admin | pass   |
+| setmodlog.js              | setml, sml                     | admin | pass   |
+| setmodrole.js             | setmr, smr                     | admin | pass   |
+| setmuterole.js            | setmur, smur                   | admin | pass   |
+| setnicknamelog.js         | setnnl, snnl                   | admin | pass   |
+| setprefix.js              | setp, sp                       | admin | pass   |
+| setrolelog.js             | setrl, srl                     | admin | pass   |
+| setsystemchannel.js       | setsc, ssc                     | admin | pass   |
+| settings.js               | set, s, config, conf           | admin | pass   |
+| setverificationchannel.js | setvc, svc                     | admin | pass   |
+| setverificationmessage.js | setverificationmsg, setvm, svm | admin | pass   |
+| setverificationrole.js    | setvr, svr                     | admin | pass   |
+| setwelcomechannel.js      | setwc, swc                     | admin | pass   |
+| setwelcomemessage.js      | setwelcomemsg, setwm, swm      | admin | pass   |
+| togglecommand.js          | togglec, togc, tc              | admin | pass   |
+| togglerandomcolor.js      | togglerc, togrc, trc           | admin | pass   |
+| toggletype.js             | togglet, togt, tt              | admin | pass   |
+| color.js                  | changecolor, colour, c         | color | pass   |
+| colors.js                 | colorlist, colours, cols, cs   | color | pass   |
+| createcolor.js            | cc                             | color | pass   |
+| createdefaultcolors.js    | cdc                            | color | pass   |
+| randomcolor.js            | rc                             | color | pass   |
+| 8ball.js                  | fortune                        | fun   | pass   |
+| coinflip.js               | cointoss, coin, flip           | fun   | pass   |
+| meme.js                   |                                | fun   | pass   |
+| roll.js                   | dice, r                        | fun   | pass   |
+| rps.js                    |                                | fun   | pass   |
+| say.js                    |                                | fun   | pass   |
+| yesno.js                  | yn                             | fun   | pass   |
+| yomomma.js                | yourmom, yomamma, yomama, ym   | fun   | pass   |
+| admins.js                 |                                | info  | pass   |
+| aliases.js                | alias, ali, a                  | info  | pass   |
+| avatar.js                 | profilepic, pic, ava           | info  | pass   |
+| channelinfo.js            | channel, ci                    | info  | pass   |
+| emojis.js                 | e                              | info  | pass   |
+| findid.js                 | find, id                       | info  | pass   |
+| help.js                   | commands, h                    | info  | pass   |
+| members.js                | memberstatus                   | info  | pass   |
+| mods.js                   |                                | info  | pass   |
+| permissions.js            | perms                          | info  | pass   |
+| ping.js                   |                                | info  | pass   |
+| prefix.js                 | pre                            | info  | pass   |
+| roleinfo.js               | role, ri                       | info  | pass   |
+| servercount.js            | usercount, sc, uc              | info  | pass   |
+| servericon.js             | icon, i                        | info  | pass   |
+| serverinfo.js             | server, si                     | info  | pass   |
+| serverstaff.js            | staff                          | info  | pass   |
+| stats.js                  | statistics, metrics            | info  | pass   |
+| uptime.js                 | up                             | info  | pass   |
+| userinfo.js               | whois, user, ui                | info  | pass   |
+| nickname.js               | changenickname, nick, nn       | misc  | pass   |
+| addrole.js                | giverole, addr, ar             | mod   | pass   |
+| ban.js                    |                                | mod   | pass   |
+| clearwarns.js             |                                | mod   | pass   |
+| kick.js                   |                                | mod   | pass   |
+| mute.js                   |                                | mod   | pass   |
+| purge.js                  | clear                          | mod   | pass   |
+| purgebot.js               | clearbot                       | mod   | pass   |
+| removerole.js             | remover, rr                    | mod   | pass   |
+| setnickname.js            | setnn, snn                     | mod   | pass   |
+| slowmode.js               | slow, sm                       | mod   | pass   |
+| softban.js                |                                | mod   | pass   |
+| unban.js                  |                                | mod   | pass   |
+| unmute.js                 |                                | mod   | pass   |
+| warn.js                   |                                | mod   | pass   |
+| warnpurge.js              | purgewarn                      | mod   | pass   |
+| warns.js                  | warnings                       | mod   | pass   |
+| blast.js                  |                                | owner | pass   |
+| eval.js                   |                                | owner | pass   |
+| leaveguild.js             |                                | owner | pass   |
+| servers.js                | servs                          | owner | pass   |
+'-----------------------------------------------------------------------------'
+2021-03-19 02:49:16 - info [app.js]: 18 event(s) found...
+2021-03-19 02:49:16 - info [app.js]: Loading event: debug
+2021-03-19 02:49:16 - info [app.js]: Loading event: error
+2021-03-19 02:49:16 - info [app.js]: Loading event: guildCreate
+2021-03-19 02:49:16 - info [app.js]: Loading event: guildDelete
+2021-03-19 02:49:16 - info [app.js]: Loading event: guildMemberAdd
+2021-03-19 02:49:16 - info [app.js]: Loading event: guildMemberRemove
+2021-03-19 02:49:16 - info [app.js]: Loading event: guildMemberUpdate
+2021-03-19 02:49:16 - info [app.js]: Loading event: guildUpdate
+2021-03-19 02:49:16 - info [app.js]: Loading event: message
+2021-03-19 02:49:16 - info [app.js]: Loading event: messageDelete
+2021-03-19 02:49:16 - info [app.js]: Loading event: messageDeleteBulk
+2021-03-19 02:49:16 - info [app.js]: Loading event: messageReactionAdd
+2021-03-19 02:49:16 - info [app.js]: Loading event: messageReactionRemove
+2021-03-19 02:49:16 - info [app.js]: Loading event: messageUpdate
+2021-03-19 02:49:16 - info [app.js]: Loading event: ready
+2021-03-19 02:49:16 - info [app.js]: Loading event: userUpdate
+2021-03-19 02:49:16 - info [app.js]: Loading event: voiceStateUpdate
+2021-03-19 02:49:16 - info [app.js]: Loading event: warn
+2021-03-19 02:49:16 - info [app.js]: Updating database and scheduling jobs...
+2021-03-19 02:49:16 - info [app.js]: Froggy is now online
+2021-03-19 02:49:16 - info [app.js]: Froggy is running on 1 server(s)
+2021-03-19 02:52:07 - error [app.js]: DiscordAPIError: Unknown Message
+    at RequestHandler.execute (/home/runner/Customizable-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RequestHandler.push (/home/runner/Customizable-Discord-Bot/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+    at async MessageManager.delete (/home/runner/Customizable-Discord-Bot/node_modules/discord.js/src/managers/MessageManager.js:126:5)
